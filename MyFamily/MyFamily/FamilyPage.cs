@@ -14,6 +14,7 @@ namespace MyFamily
         public FamilyPage()
         {
             StackLayout stlMainLayout = new StackLayout();
+            stlMainLayout.MinimumHeightRequest = 600;
 
             string strName = "";
             SortedDictionary<int, string> sdcNames = new SortedDictionary<int, string>();
@@ -25,7 +26,8 @@ namespace MyFamily
             SortedDictionary<int, Color> sdcBgrounds = new SortedDictionary<int, Color>();
 
             int intRelativeCount = 19;
-            
+            //int intRelativeCount = 6;
+
             // Load some dictionaries with the relative's role, name, and display colors
             for (int i=1; i<=intRelativeCount; i++)
             {
@@ -47,7 +49,7 @@ namespace MyFamily
                         strName = "John Gossell, Jr.";
                         strRole = "David's Paternal Grandfather";
                         clrFground = Color.Navy;
-                        clrBground = Color.Yellow;
+                        clrBground = Color.Aqua;
                         break;
                     case 4:
                         strName = "Agnes Giossell";
@@ -58,68 +60,68 @@ namespace MyFamily
                     case 5:
                         strName = "Charles Buhl";
                         strRole = "David's Maternal Grandfather";
-                        clrFground = Color.Navy;
-                        clrBground = Color.Yellow;
+                        clrFground = Color.Maroon;
+                        clrBground = Color.Pink;
                         break;
                     case 6:
                         strName = "Martha Buhl";
                         strRole = "David's Maternal Grandmother";
-                        clrFground = Color.Green;
-                        clrBground = Color.Silver;
+                        clrFground = Color.Fuchsia;
+                        clrBground = Color.Teal;
                         break;
                     case 7:
                         strName = "Joseph Plutowski";
                         strRole = "Joni's Paternal Grandfather";
-                        clrFground = Color.Red;
-                        clrBground = Color.White;
+                        clrFground = Color.Green;
+                        clrBground = Color.Silver;
                         break;
                     case 8:
                         strName = "Helen Plutowski";
                         strRole = "Joni's Paternal Grandmother";
-                        clrFground = Color.Yellow;
-                        clrBground = Color.Black;
+                        clrFground = Color.Navy;
+                        clrBground = Color.Yellow;
                         break;
                     case 9:
                         strName = "John Breidenbach";
                         strRole = "Joni's Maternal Grandfather";
-                        clrFground = Color.Navy;
-                        clrBground = Color.Yellow;
+                        clrFground = Color.Red;
+                        clrBground = Color.White;
                         break;
                     case 10:
                         strName = "Ethel Breidenbach";
                         strRole = "Joni's Maternal Grandmother";
-                        clrFground = Color.Green;
-                        clrBground = Color.Silver;
+                        clrFground = Color.Yellow;
+                        clrBground = Color.Black;
                         break;
                     case 11:
                         strName = "Roy Gossell";
                         strRole = "David's Father";
-                        clrFground = Color.Red;
-                        clrBground = Color.White;
+                        clrFground = Color.Navy;
+                        clrBground = Color.Aqua;
                         break;
                     case 12:
                         strName = "Joann Gossell";
                         strRole = "David's Mother";
-                        clrFground = Color.Yellow;
-                        clrBground = Color.Black;
+                        clrFground = Color.Green;
+                        clrBground = Color.Silver;
                         break;
                     case 13:
                         strName = "Raymond Plutowski";
                         strRole = "Joni's Father";
-                        clrFground = Color.Navy;
-                        clrBground = Color.Yellow;
+                        clrFground = Color.Maroon;
+                        clrBground = Color.Pink;
                         break;
                     case 14:
                         strName = "Rose Ann Plutowski";
                         strRole = "Joni's Mother";
-                        clrFground = Color.Green;
-                        clrBground = Color.Silver;
+                        clrFground = Color.Fuchsia;
+                        clrBground = Color.Teal;
                         break;
                     case 15:
                         strName = "Cory Gossell";
                         strRole = "Our oldest daughter";
-                        clrFground = Color.Green;
-                        clrBground = Color.Silver;
+                        clrFground = Color.Navy;
+                        clrBground = Color.Yellow;
                         break;
                     case 16:
                         strName = "John Gossell";
@@ -142,8 +144,8 @@ namespace MyFamily
                     case 19:
                         strName = "Ellie";
                         strRole = "Hallie's BFF who is like one of our family";
-                        clrFground = Color.Green;
-                        clrBground = Color.Silver;
+                        clrFground = Color.Aqua;
+                        clrBground = Color.Navy;
                         break;
                     default:
                         break;
@@ -183,6 +185,11 @@ namespace MyFamily
                     TextColor = sdcBgrounds[i],
                     BackgroundColor = sdcBgrounds[i]
                 });
+
+                if (i == 2 || i == 5)
+                {
+                    lblFamilyLabel.VerticalOptions = LayoutOptions.CenterAndExpand;
+                }
 
                 stlMainLayout.Children.Add(lblFamilyLabel);
             }
