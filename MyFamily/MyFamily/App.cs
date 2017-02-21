@@ -11,7 +11,7 @@ namespace MyFamily
     {
         public App()
         {
-            MainPage = new FamilyPage();
+            MainPage = new MyFamily();
         }
 
         protected override void OnStart()
