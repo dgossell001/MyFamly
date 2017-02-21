@@ -12,59 +12,16 @@ namespace MyFamily
     {
         public FamilyPage()
         {
-            FormattedString fstFamilyText = new FormattedString();
-
-            fstFamilyText.Spans.Add(new Span
+            StackLayout stlLayout = new StackLayout
             {
-                Text = "\nParents\n",
-                FontAttributes = FontAttributes.Bold,
-                ForegroundColor = Color.Yellow
-            });
-
-            fstFamilyText.Spans.Add(new Span
-            {
-                Text = "Me (David) - Too many years to count.\nJoni - Information withheld by request.\n\n",
-                FontAttributes = FontAttributes.Italic,
-                ForegroundColor = Color.White
-            });
-
-            fstFamilyText.Spans.Add(new Span
-            {
-                Text = "Children\n",
-                FontAttributes = FontAttributes.Bold,
-                ForegroundColor = Color.Yellow
-            });
-
-            fstFamilyText.Spans.Add(new Span
-            {
-                Text = "Cory - 25 years\nJohn - 23 years\nHallie - 17 years\n\n",
-                FontAttributes = FontAttributes.Italic,
-                ForegroundColor = Color.White
-            });
-
-            fstFamilyText.Spans.Add(new Span
-            {
-                Text = "Grandson\n",
-                FontAttributes = FontAttributes.Bold,
-                ForegroundColor = Color.Yellow
-            });
-
-            fstFamilyText.Spans.Add(new Span
-            {
-                Text = "Tyrann - 11 months",
-                FontAttributes = FontAttributes.Italic,
-                ForegroundColor = Color.White
-            });
-
-            Label lblFamily = new Label();
-
-            lblFamily.FormattedText = fstFamilyText;
-            lblFamily.HorizontalOptions = LayoutOptions.Center;
-            lblFamily.FontFamily = "Times New Roman";
-
-            StackLayout stlLayout = new StackLayout();
-            stlLayout.Children.Add(lblFamily);
-            stlLayout.BackgroundColor = Color.Blue;
+                Children =
+                {
+                    new Label
+                    {
+                        Text = "My Family"
+                    }
+                }
+            };
 
             this.Content = stlLayout;
         }
