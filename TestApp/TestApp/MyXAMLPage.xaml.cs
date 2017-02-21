@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 using Xamarin.Forms;
 
-namespace MyFamily
+namespace TestApp
 {
-    public partial class MyFamily : ContentPage
+    public partial class MyXAMLPage : ContentPage
     {
-        public MyFamily()
+        public MyXAMLPage()
         {
             InitializeComponent();
         }
