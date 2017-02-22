@@ -5,7 +5,36 @@
   <ContentPage.Content>
     <ScrollView>
       <StackLayout>
-        <Label Text="My Family will soon be listed here." />
+        
+        <!-- label 1 -->
+        <Label BackgroundColor="White" TextColor="Red">
+          <Label.FormattedText>
+            <FormattedString>
+              <Span
+                Text="Me, myself, and I - "
+              />
+              <Span
+                Text="David Gossell"
+                FontAttributes="Bold"
+              />
+            </FormattedString>
+          </Label.FormattedText>
+        </Label>
+        
+        <!-- label 2 -->
+        <Label BackgroundColor="Yellow" TextColor="Green">
+          <Label.FormattedText>
+            <FormattedString>
+              <Span
+                Text="Hard to believe but I found someone to marry me - "
+              />
+              <Span
+                Text="Joni Gossell"
+                FontAttributes="Bold"
+              />
+            </FormattedString>
+          </Label.FormattedText>
+        </Label>
       </StackLayout>
     </ScrollView>
   </ContentPage.Content>
