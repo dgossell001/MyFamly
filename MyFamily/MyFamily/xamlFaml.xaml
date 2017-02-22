@@ -22,7 +22,7 @@
         </Label>
         
         <!-- label 2 -->
-        <Label BackgroundColor="Yellow" TextColor="Green">
+        <Label BackgroundColor="Black" TextColor="Yellow">
           <Label.FormattedText>
             <FormattedString>
               <Span
@@ -35,6 +35,67 @@
             </FormattedString>
           </Label.FormattedText>
         </Label>
+        
+        <!-- label 3 -->
+        <Label BackgroundColor="Aqua" TextColor="Navy">
+          <Label.FormattedText>
+            <FormattedString>
+              <Span
+                Text="David's Paternal Grandfather - "
+              />
+              <Span
+                Text="John Gossell, Jr."
+                FontAttributes="Bold"
+              />
+            </FormattedString>
+          </Label.FormattedText>
+        </Label>
+        
+        <!-- label 4 -->
+        <Label BackgroundColor="Silver" TextColor="Green">
+          <Label.FormattedText>
+            <FormattedString>
+              <Span
+                Text="David's Paternal Grandmother - "
+              />
+              <Span
+                Text="Agnes Gossell"
+                FontAttributes="Bold"
+              />
+            </FormattedString>
+          </Label.FormattedText>
+        </Label>
+        
+        <!-- label 5 -->
+        <Label BackgroundColor="Pink" TextColor="Maroon">
+          <Label.FormattedText>
+            <FormattedString>
+              <Span
+                Text="David's Maternal Grandfather - "
+              />
+              <Span
+                Text="Charles Buhl"
+                FontAttributes="Bold"
+              />
+            </FormattedString>
+          </Label.FormattedText>
+        </Label>
+        
+        <!-- label 6 -->
+        <Label BackgroundColor="Teal" TextColor="Fuchsia">
+          <Label.FormattedText>
+            <FormattedString>
+              <Span
+                Text="David's Paternal Grandmather - "
+              />
+              <Span
+                Text="JMartha Buhl"
+                FontAttributes="Bold"
+              />
+            </FormattedString>
+          </Label.FormattedText>
+        </Label>
+      
       </StackLayout>
     </ScrollView>
   </ContentPage.Content>
