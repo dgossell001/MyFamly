@@ -1,0 +1,297 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MyFamily.xamlFaml">
+  <ContentPage.Content>
+    <ScrollView>
+      <StackLayout>
+        
+        <!-- label 1 -->
+        <Label BackgroundColor="White" TextColor="Red">
+          <Label.FormattedText>
+            <FormattedString>
+              <Span
+                Text="Me, myself, and I - "
+              />
+              <Span
+                Text="David Gossell"
+                FontAttributes="Bold"
+              />
+            </FormattedString>
+          </Label.FormattedText>
+        </Label>
+        
+        <!-- label 2 -->
+        <Label BackgroundColor="Black" TextColor="Yellow">
+          <Label.FormattedText>
+            <FormattedString>
+              <Span
+                Text="Hard to believe but I found someone to marry me - "
+              />
+              <Span
+                Text="Joni Gossell"
+                FontAttributes="Bold"
+              />
+            </FormattedString>
+          </Label.FormattedText>
+        </Label>
+        
+        <!-- label 3 -->
+        <Label BackgroundColor="Aqua" TextColor="Navy">
+          <Label.FormattedText>
+            <FormattedString>
+              <Span
+                Text="David's Paternal Grandfather - "
+              />
+              <Span
+                Text="John Gossell, Jr."
+                FontAttributes="Bold"
+              />
+            </FormattedString>
+          </Label.FormattedText>
+        </Label>
+        
+        <!-- label 4 -->
+        <Label BackgroundColor="Silver" TextColor="Green">
+          <Label.FormattedText>
+            <FormattedString>
+              <Span
+                Text="David's Paternal Grandmother - "
+              />
+              <Span
+                Text="Agnes Gossell"
+                FontAttributes="Bold"
+              />
+            </FormattedString>
+          </Label.FormattedText>
+        </Label>
+        
+        <!-- label 5 -->
+        <Label BackgroundColor="Pink" TextColor="Maroon">
+          <Label.FormattedText>
+            <FormattedString>
+              <Span
+                Text="David's Maternal Grandfather - "
+              />
+              <Span
+                Text="Charles Buhl"
+                FontAttributes="Bold"
+              />
+            </FormattedString>
+          </Label.FormattedText>
+        </Label>
+        
+        <!-- label 6 -->
+        <Label BackgroundColor="Teal" TextColor="Fuchsia">
+          <Label.FormattedText>
+            <FormattedString>
+              <Span
+                Text="David's Paternal Grandmother - "
+              />
+              <Span
+                Text="Martha Buhl"
+                FontAttributes="Bold"
+              />
+            </FormattedString>
+          </Label.FormattedText>
+        </Label>
+        
+        <!-- label 7 -->
+        <Label BackgroundColor="Silver" TextColor="Green">
+          <Label.FormattedText>
+            <FormattedString>
+              <Span
+                Text="Joni's Paternal Grandfather - "
+              />
+              <Span
+                Text="John Plutowski"
+                FontAttributes="Bold"
+              />
+            </FormattedString>
+          </Label.FormattedText>
+        </Label>
+        
+        <!-- label 8 -->
+        <Label BackgroundColor="Yellow" TextColor="Navy">
+          <Label.FormattedText>
+            <FormattedString>
+              <Span
+                Text="Joni's Paternal Grandmother - "
+              />
+              <Span
+                Text="Helen Plutowski"
+                FontAttributes="Bold"
+              />
+            </FormattedString>
+          </Label.FormattedText>
+        </Label>
+        
+        <!-- label 9 -->
+        <Label BackgroundColor="White" TextColor="Red">
+          <Label.FormattedText>
+            <FormattedString>
+              <Span
+                Text="Joni's Maternal Grandfather - "
+              />
+              <Span
+                Text="Joseph Breidenbach"
+                FontAttributes="Bold"
+              />
+            </FormattedString>
+          </Label.FormattedText>
+        </Label>
+        
+        <!-- label 10 -->
+        <Label BackgroundColor="Black" TextColor="Yellow">
+          <Label.FormattedText>
+            <FormattedString>
+              <Span
+                Text="Joni's Maternal Grandmother - "
+              />
+              <Span
+                Text="Ethel Breidenbach"
+                FontAttributes="Bold"
+              />
+            </FormattedString>
+          </Label.FormattedText>
+        </Label>
+        
+        <!-- label 11 -->
+        <Label BackgroundColor="Aqua" TextColor="Navy">
+          <Label.FormattedText>
+            <FormattedString>
+              <Span
+                Text="David's Father - "
+              />
+              <Span
+                Text="Roy Gossell"
+                FontAttributes="Bold"
+              />
+            </FormattedString>
+          </Label.FormattedText>
+        </Label>
+        
+        <!-- label 12 -->
+        <Label BackgroundColor="Silver" TextColor="Green">
+          <Label.FormattedText>
+            <FormattedString>
+              <Span
+                Text="David's Mother - "
+              />
+              <Span
+                Text="Joann Gossell"
+                FontAttributes="Bold"
+              />
+            </FormattedString>
+          </Label.FormattedText>
+        </Label>
+        
+        <!-- label 13 -->
+        <Label BackgroundColor="Pink" TextColor="Maroon">
+          <Label.FormattedText>
+            <FormattedString>
+              <Span
+                Text="Joni's Father - "
+              />
+              <Span
+                Text="Raymond Plutowski"
+                FontAttributes="Bold"
+              />
+            </FormattedString>
+          </Label.FormattedText>
+        </Label>
+        
+        <!-- label 14 -->
+        <Label BackgroundColor="Teal" TextColor="Fuchsia">
+          <Label.FormattedText>
+            <FormattedString>
+              <Span
+                Text="Joni's Mother - "
+              />
+              <Span
+                Text="Rose Ann Plutowski"
+                FontAttributes="Bold"
+              />
+            </FormattedString>
+          </Label.FormattedText>
+        </Label>
+        
+        <!-- label 15 -->
+        <Label BackgroundColor="Yellow" TextColor="Navy">
+          <Label.FormattedText>
+            <FormattedString>
+              <Span
+                Text="Our oldest Daughter - "
+              />
+              <Span
+                Text="Cory Gossell"
+                FontAttributes="Bold"
+              />
+            </FormattedString>
+          </Label.FormattedText>
+        </Label>
+        
+        <!-- label 16 -->
+        <Label BackgroundColor="White" TextColor="Red">
+          <Label.FormattedText>
+            <FormattedString>
+              <Span
+                Text="Our Son - "
+              />
+              <Span
+                Text="John Gossell"
+                FontAttributes="Bold"
+              />
+            </FormattedString>
+          </Label.FormattedText>
+        </Label>
+        
+        <!-- label 17 -->
+        <Label BackgroundColor="Black" TextColor="Yellow">
+          <Label.FormattedText>
+            <FormattedString>
+              <Span
+                Text="Our youngest Daughter - "
+              />
+              <Span
+                Text="Hallie Gossell"
+                FontAttributes="Bold"
+              />
+            </FormattedString>
+          </Label.FormattedText>
+        </Label>
+        
+        <!-- label 18 -->
+        <Label BackgroundColor="Yellow" TextColor="Navy">
+          <Label.FormattedText>
+            <FormattedString>
+              <Span
+                Text="Our Grandson/John's Son - "
+              />
+              <Span
+                Text="Tyrann Owen"
+                FontAttributes="Bold"
+              />
+            </FormattedString>
+          </Label.FormattedText>
+        </Label>
+        
+        <!-- label 19 -->
+        <Label BackgroundColor="Navy" TextColor="Aqua">
+          <Label.FormattedText>
+            <FormattedString>
+              <Span
+                Text="Hallie's BFF who is like one of our family - "
+              />
+              <Span
+                Text="Ellie"
+                FontAttributes="Bold"
+              />
+            </FormattedString>
+          </Label.FormattedText>
+        </Label>
+      
+      </StackLayout>
+    </ScrollView>
+  </ContentPage.Content>
+</ContentPage>
