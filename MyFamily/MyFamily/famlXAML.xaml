@@ -6,11 +6,18 @@
 
   <ContentPage.Resources>
     <ResourceDictionary>
+      
       <Style TargetType="Image">
         <Setter Property="WidthRequest" Value="100" />
         <Setter Property="HeightRequest" Value="100" />
         <Setter Property="BackgroundColor" Value="Green" />
+        <Setter Property="VerticalOptions" Value="Center" />
       </Style>
+      
+      <Style TargetType="Label">
+        <Setter Property="VerticalOptions" Value="Fill" />
+      </Style>
+      
     </ResourceDictionary>
   </ContentPage.Resources>
   
@@ -23,7 +30,11 @@
           <ColumnDefinition Width="100" />
         </Grid.ColumnDefinitions>
 
-        <!-- label 15 -->
+        <Grid.RowDefinitions>
+          <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <!-- cory label -->
         <Label BackgroundColor="Yellow" TextColor="Navy"
                Grid.Column="0">
           <Label.FormattedText>
@@ -39,6 +50,7 @@
           </Label.FormattedText>
         </Label>
 
+        <!-- cory pic -->
         <Image
           Source="{local:ImageResource MyFamily.Images.cory.bmp}"
           Grid.Column="1"
