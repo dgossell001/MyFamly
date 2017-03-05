@@ -11,7 +11,7 @@ namespace MyFamily
     {
         public App()
         {
-            MainPage = new FamilyPage();
+            MainPage = new famlXAML();
         }
 
         protected override void OnStart()

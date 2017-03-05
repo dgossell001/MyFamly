@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:MyFamily;assembly=MyFamily"
+             x:Class="MyFamily.famlXAML">
+
+  <ContentPage.Resources>
+    <ResourceDictionary>
+      <Style TargetType="Image">
+        <Setter Property="WidthRequest" Value="100" />
+        <Setter Property="HeightRequest" Value="100" />
+        <Setter Property="BackgroundColor" Value="Green" />
+      </Style>
+    </ResourceDictionary>
+  </ContentPage.Resources>
+  
+  <ContentPage.Content>
+    
+    <ScrollView>
+      <Grid>
+        <Grid.ColumnDefinitions>
+          <ColumnDefinition Width="Auto" />
+          <ColumnDefinition Width="100" />
+        </Grid.ColumnDefinitions>
+
+        <!-- label 15 -->
+        <Label BackgroundColor="Yellow" TextColor="Navy"
+               Grid.Column="0">
+          <Label.FormattedText>
+            <FormattedString>
+              <Span
+                Text="Our oldest Daughter - "
+              />
+              <Span
+                Text="Cory Gossell"
+                FontAttributes="Bold"
+              />
+            </FormattedString>
+          </Label.FormattedText>
+        </Label>
+
+        <Image
+          Source="{local:ImageResource MyFamily.Images.cory.bmp}"
+          Grid.Column="1"
+          />
+        
+      </Grid>
+      
+      <!-- Old stack layout went here -->
+      
+    </ScrollView>
+   </ContentPage.Content>
+</ContentPage>
