@@ -112,7 +112,7 @@
           />
 
         <!-- john label-->
-        <Label BackgroundColor="White" TextColor="Red"
+        <Label BackgroundColor="Teal" TextColor="Fuchsia"
                Grid.Column="0"
                Grid.Row="3">
           <Label.FormattedText>
@@ -136,7 +136,7 @@
           />
 
         <!-- hal label -->
-        <Label BackgroundColor="Black" TextColor="Yellow"
+        <Label BackgroundColor="Silver" TextColor="Green"
                Grid.Column="0"
                Grid.Row="4">
           <Label.FormattedText>
