@@ -111,28 +111,52 @@
           Grid.Row="2"
           />
 
-        <!-- david label -->
+        <!-- john label-->
         <Label BackgroundColor="White" TextColor="Red"
                Grid.Column="0"
                Grid.Row="3">
           <Label.FormattedText>
             <FormattedString>
               <Span
-                Text="Me, myself, and I - "
+                Text="Our Son - "
               />
               <Span
-                Text="David Gossell"
+                Text="John Gossell"
                 FontAttributes="Bold"
               />
             </FormattedString>
           </Label.FormattedText>
         </Label>
 
-        <!-- david pic -->
+        <!-- john pic -->
         <Image
           Source="{local:ImageResource MyFamily.Images.john.bmp}"
           Grid.Column="1"
           Grid.Row="3"
+          />
+
+        <!-- hal label -->
+        <Label BackgroundColor="Black" TextColor="Yellow"
+               Grid.Column="0"
+               Grid.Row="4">
+          <Label.FormattedText>
+            <FormattedString>
+              <Span
+                Text="Our youngest Daughter - "
+              />
+              <Span
+                Text="Hallie Gossell"
+                FontAttributes="Bold"
+              />
+            </FormattedString>
+          </Label.FormattedText>
+        </Label>
+
+        <!-- hal pic -->
+        <Image
+          Source="{local:ImageResource MyFamily.Images.hal.bmp}"
+          Grid.Column="1"
+          Grid.Row="4"
           />
         
       </Grid>
