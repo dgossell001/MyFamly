@@ -63,10 +63,34 @@
           Grid.Row="0"
           />
 
+        <!-- joni label -->
+        <Label BackgroundColor="Black" TextColor="Yellow"
+               Grid.Column="0"
+               Grid.Row="1">
+          <Label.FormattedText>
+            <FormattedString>
+              <Span
+                Text="Hard to believe but I found someone to marry me - "
+              />
+              <Span
+                Text="Joni Gossell"
+                FontAttributes="Bold"
+              />
+            </FormattedString>
+          </Label.FormattedText>
+        </Label>
+
+        <!-- joni pic -->
+        <Image
+          Source="{local:ImageResource MyFamily.Images.joni.bmp}"
+          Grid.Column="1"
+          Grid.Row="1"
+          />
+
         <!-- cory label -->
         <Label BackgroundColor="Yellow" TextColor="Navy"
                Grid.Column="0"
-               Grid.Row="1">
+               Grid.Row="2">
           <Label.FormattedText>
             <FormattedString>
               <Span
@@ -84,13 +108,13 @@
         <Image
           Source="{local:ImageResource MyFamily.Images.cory.bmp}"
           Grid.Column="1"
-          Grid.Row="1"
+          Grid.Row="2"
           />
 
         <!-- david label -->
         <Label BackgroundColor="White" TextColor="Red"
                Grid.Column="0"
-               Grid.Row="2">
+               Grid.Row="3">
           <Label.FormattedText>
             <FormattedString>
               <Span
@@ -106,9 +130,9 @@
 
         <!-- david pic -->
         <Image
-          Source="{local:ImageResource MyFamily.Images.david.bmp}"
+          Source="{local:ImageResource MyFamily.Images.john.bmp}"
           Grid.Column="1"
-          Grid.Row="2"
+          Grid.Row="3"
           />
         
       </Grid>
