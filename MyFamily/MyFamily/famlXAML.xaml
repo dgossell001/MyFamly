@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:MyFamily;assembly=MyFamily"
+             x:Class="MyFamily.famlXAML">
+
+  <ContentPage.Resources>
+    <ResourceDictionary>
+      
+      <Style TargetType="Image">
+        <Setter Property="WidthRequest" Value="100" />
+        <Setter Property="HeightRequest" Value="100" />
+        <Setter Property="BackgroundColor" Value="Green" />
+        <Setter Property="VerticalOptions" Value="Center" />
+      </Style>
+      
+      <Style TargetType="Label">
+        <Setter Property="VerticalOptions" Value="Fill" />
+        <Setter Property="VerticalTextAlignment" Value="Center" />
+      </Style>
+      
+    </ResourceDictionary>
+  </ContentPage.Resources>
+  
+  <ContentPage.Content>
+    
+    <ScrollView>
+      <Grid>
+        <Grid.ColumnDefinitions>
+          <ColumnDefinition Width="Auto" />
+          <ColumnDefinition Width="100" />
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+          <RowDefinition Height="Auto" />
+          <RowDefinition Height="Auto" />
+          <RowDefinition Height="Auto" />
+          <RowDefinition Height="Auto" />
+          <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <!-- david label -->
+        <Label BackgroundColor="White" TextColor="Red"
+               Grid.Column="0"
+               Grid.Row="0">
+          <Label.FormattedText>
+            <FormattedString>
+              <Span
+                Text="Me, myself, and I - "
+              />
+              <Span
+                Text="David Gossell"
+                FontAttributes="Bold"
+              />
+            </FormattedString>
+          </Label.FormattedText>
+        </Label>
+
+        <!-- david pic -->
+        <Image
+          Source="{local:ImageResource MyFamily.Images.david.bmp}"
+          Grid.Column="1"
+          Grid.Row="0"
+          />
+
+        <!-- joni label -->
+        <Label BackgroundColor="Black" TextColor="Yellow"
+               Grid.Column="0"
+               Grid.Row="1">
+          <Label.FormattedText>
+            <FormattedString>
+              <Span
+                Text="Hard to believe but I found someone to marry me - "
+              />
+              <Span
+                Text="Joni Gossell"
+                FontAttributes="Bold"
+              />
+            </FormattedString>
+          </Label.FormattedText>
+        </Label>
+
+        <!-- joni pic -->
+        <Image
+          Source="{local:ImageResource MyFamily.Images.joni.bmp}"
+          Grid.Column="1"
+          Grid.Row="1"
+          />
+
+        <!-- cory label -->
+        <Label BackgroundColor="Yellow" TextColor="Navy"
+               Grid.Column="0"
+               Grid.Row="2">
+          <Label.FormattedText>
+            <FormattedString>
+              <Span
+                Text="Our oldest Daughter - "
+              />
+              <Span
+                Text="Cory Gossell"
+                FontAttributes="Bold"
+              />
+            </FormattedString>
+          </Label.FormattedText>
+        </Label>
+
+        <!-- cory pic -->
+        <Image
+          Source="{local:ImageResource MyFamily.Images.cory.bmp}"
+          Grid.Column="1"
+          Grid.Row="2"
+          />
+
+        <!-- john label-->
+        <Label BackgroundColor="Teal" TextColor="Fuchsia"
+               Grid.Column="0"
+               Grid.Row="3">
+          <Label.FormattedText>
+            <FormattedString>
+              <Span
+                Text="Our Son - "
+              />
+              <Span
+                Text="John Gossell"
+                FontAttributes="Bold"
+              />
+            </FormattedString>
+          </Label.FormattedText>
+        </Label>
+
+        <!-- john pic -->
+        <Image
+          Source="{local:ImageResource MyFamily.Images.john.bmp}"
+          Grid.Column="1"
+          Grid.Row="3"
+          />
+
+        <!-- hal label -->
+        <Label BackgroundColor="Silver" TextColor="Green"
+               Grid.Column="0"
+               Grid.Row="4">
+          <Label.FormattedText>
+            <FormattedString>
+              <Span
+                Text="Our youngest Daughter - "
+              />
+              <Span
+                Text="Hallie Gossell"
+                FontAttributes="Bold"
+              />
+            </FormattedString>
+          </Label.FormattedText>
+        </Label>
+
+        <!-- hal pic -->
+        <Image
+          Source="{local:ImageResource MyFamily.Images.hal.bmp}"
+          Grid.Column="1"
+          Grid.Row="4"
+          />
+        
+      </Grid>
+      
+      <!-- Old stack layout went here -->
+      
+    </ScrollView>
+   </ContentPage.Content>
+</ContentPage>
